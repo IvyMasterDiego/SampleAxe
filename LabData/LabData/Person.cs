@@ -59,7 +59,7 @@ namespace OOP
             AGrad aGrad = (AGrad)(bitpacking & 0b11);
             return new Person(id, name, apellido, age, ahorros, gender, mStatus, aGrad, password);
         }
-
+        //esto es un cambio de prueba para github
         internal static Person FromConsole(string record)
         {
             var tokens = record.Split(',');
